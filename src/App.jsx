@@ -1,0 +1,28 @@
+import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+import Project from './components/Project'
+import Experience from './components/Experience'
+import Content from './components/Content'
+import Footer from './components/Footer'
+
+
+function App() {
+
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Project />
+      <Experience />
+      <Content />
+      <Footer />
+    </>
+  )
+}
+
+export default App
