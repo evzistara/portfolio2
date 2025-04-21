@@ -13,24 +13,24 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="mx-10 my-30">
+      <section className="mx-10 my-30 ">
         <Hero />
       </section>
-      <section className="px-10 py-30 bg-white">
+      <section className="px-10 py-30 bg-white" id="about">
         <About />
       </section>
-      <section className="mx-10 my-30">
+      <section className="mx-10 my-30" id="skills">
         <Skills />
       </section>
-      <section className="px-10 py-30 bg-white">
+      <section className="px-10 py-30 bg-white" id="projects">
         <Projects />
       </section>
-      <section className="mx-10 my-30">
+      <section className="mx-10 my-30" id="experience">
         <Experience />
       </section>
     
       <Content />
-      <Footer />
+      <Footer id="contact"/>
     </>
   );
 }

@@ -223,37 +223,37 @@ c-64 -58 -161 -110 -268 -140 -65 -19 -103 -23 -223 -23 -131 0 -155 3 -247
           <div className="hidden md:ml-6 md:flex md:items-center space-x-4">
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#intro"
+              href="#about"
             >
               About
             </a>
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#skills"
+              href="#skills"
             >
               Skills
             </a>
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#projects"
+              href="#projects"
             >
               Projects
             </a>
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#experience"
+              href="#experience"
             >
               Experience
             </a>
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#content"
+              href="#"
             >
               SoMe
             </a>
             <a
               className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
-              href="/index.html#contact"
+              href="#contact"
             >
               Contact
             </a>
@@ -267,37 +267,37 @@ c-64 -58 -161 -110 -268 -140 -65 -19 -103 -23 -223 -23 -131 0 -155 3 -247
           <div className="space-y-1 px-2 pt-2 pb-3">
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html"
+              href="#"
             >
               Home
             </a>
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html#intro"
+              href="#about"
             >
               About
             </a>
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html#skills"
+              href="#skills"
             >
               Skills
             </a>
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html#projects"
+              href="#projects"
             >
               Projects
             </a>
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html#experience"
+              href="#experience"
             >
               Experience
             </a>
             <a
               className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="/index.html#contact"
+              href="#contact"
             >
               Contact
             </a>
