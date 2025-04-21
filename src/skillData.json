@@ -1,0 +1,74 @@
+
+{
+    "frontend": [
+      {
+        "id": 1,
+        "name": "JavaScript",
+        "icon": "./skills/javascript.svg"
+      },
+      {
+        "id": 2,
+        "name": "React",
+        "icon": "./skills/react.svg"
+      },
+      {
+        "id": 3,
+        "name": "HTML",
+        "icon": "./skills/html-5.svg"
+      },
+      {
+        "id": 4,
+        "name": "CSS",
+        "icon": "./skills/css-3.svg"
+      },
+      {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "icon": "./skills/tailwindcss.svg"
+      },
+  
+      {
+        "id": 6,
+        "name": "Sass",
+        "icon": "./skills/sass.svg"
+      }
+
+    ],
+    "backend": [
+  
+        {
+            "id": 1,
+            "name": "MySQL",
+            "icon": "./skills/mysql.svg"
+        },
+        {
+            "id": 2,
+            "name": "Firebase",
+            "icon": "./skills/firebase.svg"
+        }
+    ],
+    "tools":[
+         {
+        "id": 1,
+        "name": "Figma",
+        "icon": "./skills/figma.svg"
+      },
+      {
+        "id": 2,
+        "name": "Git",
+        "icon": "./skills/git.svg"
+      },
+      {
+        "id": 3,
+        "name": "GitHub",
+        "icon": "./skills/github.svg"
+      },
+      {
+        "id": 4,
+        "name": "WordPress",
+        "icon": "./skills/wordpress.svg"
+      }    
+
+    ]
+  }
+  

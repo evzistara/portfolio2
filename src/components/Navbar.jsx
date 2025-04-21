@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Bonnie from "../assets/Bonnie.svg";
 
 function Navbar() {
   const [buttonState, setButtonState] = useState(false);
@@ -8,7 +7,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-heading my-4 mx-4 rounded-lg shadow-md md:w-2xl md:mx-auto lg:w-3xl xl:w-4xl p-2">
+    <nav className="bg-heading my-4 mx-4 rounded-lg shadow-md md:w-2xl md:mx-auto lg:w-3xl xl:w-4xl p-2 sticky top-5">
       <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="flex-shrink-0 flex items-center">
@@ -267,37 +266,37 @@ c-64 -58 -161 -110 -268 -140 -65 -19 -103 -23 -223 -23 -131 0 -155 3 -247
         <div className="md:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pt-2 pb-3">
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html"
             >
               Home
             </a>
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html#intro"
             >
               About
             </a>
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html#skills"
             >
               Skills
             </a>
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html#projects"
             >
               Projects
             </a>
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html#experience"
             >
               Experience
             </a>
             <a
-              className="block rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
               href="/index.html#contact"
             >
               Contact
