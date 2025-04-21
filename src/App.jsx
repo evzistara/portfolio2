@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="mx-10 my-30 ">
+      <section className="mx-10 my-30">
         <Hero />
       </section>
       <section className="px-10 py-30 bg-white" id="about">
