@@ -19,18 +19,19 @@ function App() {
       <section className="px-10 py-30 bg-white" id="about">
         <About />
       </section>
-      <section className="mx-10 my-30" id="skills">
+      <section className="px-10 py-30" id="skills">
         <Skills />
       </section>
       <section className="px-10 py-30 bg-white" id="projects">
         <Projects />
       </section>
-      <section className="mx-10 my-30" id="experience">
+      <section className="px-10 py-30" id="experience">
         <Experience />
       </section>
     
       <Content />
-      <Footer id="contact"/>
+  
+      <Footer/>
     </>
   );
 }

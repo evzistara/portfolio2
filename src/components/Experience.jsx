@@ -28,7 +28,7 @@ function Experience(){
             {school}
         </div>
         </div>
-        <div>
+        <div className="mt-10">
         <h2 className="text-3xl my-4 capitalize">Experience</h2>
         <div>
             {work}

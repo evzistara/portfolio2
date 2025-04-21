@@ -13,7 +13,7 @@ function Projects(){
 
     return(
         <div className="lg:w-5xl lg:mx-auto">
-        <h2 className="text-3xl my-4 capitalize">Projects</h2>
+        <h2 className="text-3xl my-4 capitalize text-primary">Projects</h2>
         <div>
             {project}
         </div>

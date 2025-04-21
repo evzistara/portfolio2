@@ -18,18 +18,18 @@ function Skills(){
     return(
         <div className="lg:w-5xl lg:mx-auto">
         <h2 className="text-3xl my-4 capitalize">My skills</h2>
-        <div>
-          <h3 className="text-xl my-4">Front-end</h3>
+        <div className="my-10">
+          <h3 className="text-xl mb-2 text-text uppercase">Front-end</h3>
           <div className="flex flex-wrap gap-5">
           {skillsF}</div>
         </div>
-        <div>
-          <h3 className="text-xl my-4">Back-end</h3>
+        <div className="my-10">
+          <h3 className="text-xl mb-2 uppercase text-text">Back-end</h3>
           <div className="flex flex-wrap gap-5">
           {skillsB}</div>
         </div>
-        <div>
-          <h3 className="text-xl my-4">Tools</h3>
+        <div className="my-10">
+          <h3 className="text-xl mb-2 uppercase text-text">Tools</h3>
           <div className="flex flex-wrap gap-5">
           {tools}</div>
         </div>

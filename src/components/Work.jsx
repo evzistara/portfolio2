@@ -1,6 +1,6 @@
 function Work(props) {
   return (
-    <div className="border rounded-md flex gap-5 my-5 p-4 items-start">
+    <div className="bg-backgroundLight rounded-md flex gap-5 my-5 p-4 items-start shadow-md">
       <img
         className="w-20"
         src={props.work.logo}
