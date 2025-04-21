@@ -44,8 +44,8 @@ export default {
         "title": "Search Executive",
         "company": "Publicis Norway",
         "period": "05/2023 - 06/2024",
+        "clients": "Clients: Ice B2C, Ice B2B, Nice Mobil & Bertel og Steen",
         "tasks": [
-          "Clients: Ice B2C, Ice B2B, Nice Mobil & Bertel og Steen",
           "Day-to-day paid search accounts optimization, testing",
           "Involved in various projects: use of GPT for keyword analysis; use of first party data in search accounts; automatization in paid search with use of scripts and third party tools"
         ],
@@ -56,11 +56,8 @@ export default {
         "title": "SEO specialist",
         "company": "Reprise Digital",
         "period": "01/2023 - 05/2023",
-        "tasks": [
-          "Clients: Fagmøbler, Torshov Sport",
-          "Creating on-page SEO strategy",
-          "Keyword analysis, competitor analysis"
-        ],
+        "clients": "Clients: Fagmøbler, Torshov Sport",
+        "tasks":"Creating on-page SEO strategy, Keyword analysis, competitor analysis",
         "logo": RepriseDigital
       },
       {
@@ -68,12 +65,7 @@ export default {
         "title": "SEO consultant",
         "company": "Idium 1881",
         "period": "04/2022 - 12/2022",
-        "tasks": [
-          "On-page and technical SEO for different clients",
-          "SEO analysis, keywords analysis, competitor analysis",
-          "Cooperation with content writers, web developers",
-          "Member of social committee and internal marketing team"
-        ],
+        "tasks": "On-page and technical SEO for different clients, SEO analysis, keywords analysis, competitor analysis, Cooperation with content writers, web developers, Member of social committee and internal marketing team",
         "logo": Idium
       }
     ]

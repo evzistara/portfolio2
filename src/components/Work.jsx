@@ -9,7 +9,8 @@ function Work(props) {
       <div>
         <h3 className="font-bold text-xl">{props.work.title}</h3>
         <p>{props.work.company}</p>
-        <p>{props.work.period}</p>
+        <p className="mb-2">{props.work.period}</p>
+        <p>{props.work.clients}</p>
         <p>{props.work.tasks}</p>
       </div>
     </div>

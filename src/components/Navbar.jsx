@@ -7,7 +7,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-heading my-4 mx-4 rounded-lg shadow-md md:w-2xl md:mx-auto lg:w-3xl xl:w-4xl p-2 sticky top-5">
+    <nav className="bg-heading my-4 mx-4 rounded-lg shadow-md md:w-2xl md:mx-auto lg:w-4xl xl:w-5xl 2xl:w-7xl p-2 sticky top-5">
       <div className="mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="flex-shrink-0 flex items-center">
@@ -222,37 +222,37 @@ c-64 -58 -161 -110 -268 -140 -65 -19 -103 -23 -223 -23 -131 0 -155 3 -247
           {/* Desktop navigation links (hidden on small screens) */}
           <div className="hidden md:ml-6 md:flex md:items-center space-x-4">
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#about"
             >
               About
             </a>
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#skills"
             >
               Skills
             </a>
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#projects"
             >
               Projects
             </a>
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#experience"
             >
               Experience
             </a>
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#"
             >
               SoMe
             </a>
             <a
-              className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-primary"
+              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
               href="#contact"
             >
               Contact
