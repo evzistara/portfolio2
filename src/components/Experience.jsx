@@ -1,6 +1,6 @@
 import School from "./School";
 import Work from "./Work";     
-import data from "../experienceData.json"  
+import data from "../data/experienceData"  
 
 function Experience(){
 

@@ -1,5 +1,5 @@
 import Project from './Project';
-import data from '../projectsData.json';
+import data from '../data/projectsData';
 
 function Projects(){
     const project = data.map((project, index) => {

@@ -9,8 +9,8 @@ function About() {
         alt="Evzi and her dog"
       />
       <div>
-        <h2 className="text-3xl my-4 capitalize">About me</h2>
-        <p className="mb-4">
+        <h2 className="text-3xl my-4 capitalize text-text">About me</h2>
+        <p className="mb-4 text-xl">
           Hi! I'm Evzi — a junior Front-end developer based in <span className="font-bold text-primary">Oslo, Norway</span>.
         </p>
         <p className="mb-4">

@@ -1,4 +1,12 @@
-{
+import Oslomet from "../assets/experience/oslomet.png";
+import Vsem from "../assets/experience/vsem.png";
+import Vse from "../assets/experience/vse.jpg";
+import Publicis from "../assets/experience/publicis.jpg";
+import RepriseDigital from "../assets/experience/reprise_digital.jpg";
+import Idium from "../assets/experience/idium.jpg";
+
+
+export default {
     "university": [
       {
         "id": 1,
@@ -8,7 +16,7 @@
         "degree": "1 year program",
         "program": "IT, 60 p.",
         "other": "Inclusive web design, Programing, Interaction design, IoT, Databases, Web programming",
-        "logo": "./experience/oslomet.png"
+        "logo": Oslomet
       },
       {
         "id": 2,
@@ -18,7 +26,7 @@
         "degree": "Master's degree",
         "program": "Economy and management",
         "other": "Marketing and advertising",
-        "logo": "./experience/vsem.png"
+        "logo": Vsem
       },
       {
         "id": 3,
@@ -27,7 +35,7 @@
         "period": "09/2015 - 06/2018",
         "degree": "Bachelor's degree",
         "program": "Economy & Business law",
-        "logo": "./experience/vse.jpg"
+        "logo": Vse
       }
     ],
     "work": [
@@ -41,7 +49,7 @@
           "Day-to-day paid search accounts optimization, testing",
           "Involved in various projects: use of GPT for keyword analysis; use of first party data in search accounts; automatization in paid search with use of scripts and third party tools"
         ],
-        "logo": "./experience/publicis.jpg"
+        "logo": Publicis
       },
       {
         "id": 2,
@@ -53,7 +61,7 @@
           "Creating on-page SEO strategy",
           "Keyword analysis, competitor analysis"
         ],
-        "logo": "./experience/reprise_digital.jpg"
+        "logo": RepriseDigital
       },
       {
         "id": 3,
@@ -66,7 +74,7 @@
           "Cooperation with content writers, web developers",
           "Member of social committee and internal marketing team"
         ],
-        "logo": "./experience/idium.jpg"
+        "logo": Idium
       }
     ]
   }

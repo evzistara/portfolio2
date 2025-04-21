@@ -1,4 +1,4 @@
-import data from "../skillData.json";
+import data from "../data/skillData";
 import Skill from './Skill';
 
 function Skills(){
