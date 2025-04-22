@@ -26,12 +26,12 @@ function Hero() {
   }, []);
 
   return (
-    <div className="lg:w-5xl lg:mx-auto">
-      <div className="p-8 text-text ">
-        <h1 className="text-5xl mb-4">Hey, I am Evzi!</h1>
-        <h2 className="text-5xl mb-4">
+    <div className="text-3xl lg:w-5xl lg:mx-auto">
+      <div className="lg:p-8 text-text md:text-5xl">
+        <h1 className=" mb-4">Hey, I am Evzi!</h1>
+        <h2 className=" mb-4">
           I am a  <span className="font-bold">junior front-end developer</span> </h2>
-        <h2 className="text-5xl">but I am also <span className="">{facts}</span></h2>
+        <h2 >but I am also <span className="">{facts}</span></h2>
         <div className="mt-4">
           <SoMe />
         </div>
