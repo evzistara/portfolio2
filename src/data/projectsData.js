@@ -1,6 +1,7 @@
 import Rps from '../assets/projects/rps.png';
 import WeatherApp from '../assets/projects/weather-app.png';
 import Library from '../assets/projects/library.png';
+import CookingHelper from '../assets/projects/cookingHelper.png';
 
 export default [
     {
@@ -29,5 +30,14 @@ export default [
         "site": "https://evzistara.github.io/books/",
         "github": "https://github.com/evzistara/books",
         "image": Library
+    },
+    {
+    "id": 4,
+        "name": "Cooking Helper",
+        "technologies": ["React", "TailwindCSS", "Claude AI"],
+        "description": "Do you need help with inspiration for cooking? Here you can input ingredients you have in your kitchen and based on these, AI will recommend you a recipe that firs with ingridients you have.",
+        "site": "https://cookinghelper13.netlify.app/",
+        "github": "https://github.com/evzistara/cookingHelper",
+        "image": CookingHelper
     }
 ]
