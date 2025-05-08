@@ -20,7 +20,7 @@ export default [
     name: "Cooking Helper",
     technologies: ["React", "TailwindCSS", "Claude AI"],
     description:
-      "Do you need help with inspiration for cooking? Here you can input ingredients you have in your kitchen and based on these, AI will recommend you a recipe that firs with ingridients you have.",
+      "Do you need help with inspiration for cooking? Here you can input ingredients you have in your kitchen and based on these, AI will recommend you a recipe that fits with ingridients you have.",
     site: "https://cookinghelper13.netlify.app/",
     github: "https://github.com/evzistara/cookingHelper",
     image: CookingHelper,
@@ -28,9 +28,9 @@ export default [
   {
     id: 3,
     name: "Weather App",
-    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "API"],
     description:
-      "A weather application that allows users to search for the current weather in any city. The app uses the AccuWeather API to fetch weather data.",
+      "A simple weather app that allows users to search for any city and instantly view real-time weather data. The app fetches information from the AccuWeather API and displays the current temperature, weather condition, city name, and whether it's day or night — complete with a matching background image and weather icon.",
     site: "https://evzistara.github.io/weather-app/",
     github: "https://github.com/evzistara/weather-app",
     image: WeatherApp,
@@ -40,7 +40,7 @@ export default [
     name: "Library",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
-      "A simple library where you can add and delete books and mark them read.",
+      "A virtual bookshelf where users can manage their book collection. Users can add new books through a form modal, mark books as read/unread with a toggle button, and remove books from the list. The app demonstrates form handling, object constructors, prototype methods, and event-driven UI updates. ",
     site: "https://evzistara.github.io/books/",
     github: "https://github.com/evzistara/books",
     image: Library,
@@ -50,7 +50,7 @@ export default [
     name: "Rock Paper Scissors",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
-      "A simple rock-paper-scissors game where the user can play against the computer. The game uses JavaScript to generate a random choice for the computer and compares it with the user's choice to determine the winner.",
+      "A simple interactive game where you play against the computer for 5 rounds. The game tracks and displays the score after each round and provides instant feedback on who won. Designed to practice DOM manipulation, event handling, and basic game logic.",
     site: "https://evzistara.github.io/rockpaperscissors/",
     github: "https://github.com/evzistara/rockpaperscissors",
     image: Rps,
