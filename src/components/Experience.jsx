@@ -23,13 +23,13 @@ function Experience(){
     return(
         <div className=" lg:w-5xl lg:mx-auto">
         <div>
-        <h2 className="text-3xl my-4 capitalize">University</h2>
+        <h2 className="text-3xl my-4 capitalize text-primary">University</h2>
         <div>
             {school}
         </div>
         </div>
         <div className="mt-10">
-        <h2 className="text-3xl my-4 capitalize">Experience</h2>
+        <h2 className="text-3xl my-4 capitalize text-primary">Experience</h2>
         <div>
             {work}
         </div>

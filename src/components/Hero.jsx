@@ -27,7 +27,7 @@ function Hero() {
 
   return (
     <div className="text-3xl lg:w-5xl lg:mx-auto">
-      <div className="lg:p-8 text-text md:text-5xl">
+      <div className="lg:p-8 text-primary md:text-5xl">
         <h1 className=" mb-4">Hey, I am Evzi!</h1>
         <h2 className=" mb-4">
           I am a  <span className="font-bold">junior front-end developer</span> </h2>
