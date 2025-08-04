@@ -24,7 +24,7 @@ function Project(props) {
           href={props.project.site}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary bg-primary rounded-md px-2 py-1 mr-2 hover:bg-highlight inline-block transform hover:scale-105 transition"
+          className="text-white bg-text rounded-md px-2 py-1 mr-2 hover:bg-highlight inline-block transform hover:scale-105 transition"
         >
           View Project
         </a>
@@ -32,7 +32,7 @@ function Project(props) {
           href={props.project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary bg-primary rounded-md px-2 py-1  mr-2 hover:bg-highlight inline-block transform hover:scale-105 transition"
+          className="text-white bg-text rounded-md px-2 py-1  mr-2 hover:bg-highlight inline-block transform hover:scale-105 transition"
         >
           View GitHub
         </a>
