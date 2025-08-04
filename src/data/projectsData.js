@@ -1,8 +1,9 @@
-import Rps from "../assets/projects/rps.png";
+
 import WeatherApp from "../assets/projects/weather-app.png";
 import Library from "../assets/projects/library.png";
 import CookingHelper from "../assets/projects/cookingHelper.png";
 import comingSoon from "../assets/projects/comingSoon.png";
+import questPicker from "../assets/projects/questPicker.png";
 
 export default [
   {
@@ -15,8 +16,18 @@ export default [
     github: "",
     image: comingSoon,
   },
-  {
+   {
     id: 2,
+    name: "Quest Picker",
+    technologies: ["React", "TalwindCSS", "JavaScript"],
+    description:
+      "A tool that helps you pick a daily task or 'quest' to complete. You can either pick a random ask or specify a category to choose from. The app is designed to help you stay motivated and focused by providing a daily challenge.",
+    site: "https://evzistara.github.io/questpicker/",
+    github: "https://github.com/evzistara/questpicker",
+    image: questPicker,
+  },
+  {
+    id: 3,
     name: "Cooking Helper",
     technologies: ["React", "TailwindCSS", "Claude AI"],
     description:
@@ -26,7 +37,7 @@ export default [
     image: CookingHelper,
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather App",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "API"],
     description:
@@ -36,7 +47,7 @@ export default [
     image: WeatherApp,
   },
   {
-    id: 4,
+    id: 5,
     name: "Library",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
@@ -44,15 +55,5 @@ export default [
     site: "https://evzistara.github.io/books/",
     github: "https://github.com/evzistara/books",
     image: Library,
-  },
-  {
-    id: 5,
-    name: "Rock Paper Scissors",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    description:
-      "A simple interactive game where you play against the computer for 5 rounds. The game tracks and displays the score after each round and provides instant feedback on who won. Designed to practice DOM manipulation, event handling, and basic game logic.",
-    site: "https://evzistara.github.io/rockpaperscissors/",
-    github: "https://github.com/evzistara/rockpaperscissors",
-    image: Rps,
   }
 ];

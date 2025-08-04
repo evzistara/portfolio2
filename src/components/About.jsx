@@ -1,12 +1,12 @@
-import Evzi from "../assets/Evzi.jpg";
+import EvziS from "../assets/EvziS.jpg";
 
 function About() {
   return (
     <div className="flex flex-col items-center justify-center gap-5 md:flex-row md:gap-10 lg:w-5xl lg:mx-auto">
       <img
         className="h-100 rounded-xl shadow-gray-600 shadow-md block"
-        src={Evzi}
-        alt="Evzi and her dog"
+        src={EvziS}
+        alt="Portrait of Evzi"
       />
       <div>
         <h2 className="text-3xl my-4 capitalize text-primary">About me</h2>
