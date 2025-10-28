@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: #FFC9B5 ;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -15,5 +14,12 @@ body {
     --color-text: #3F3D56;
     --color-heading: #665B6D;
     --color-highlight: #C7D3BF;
-    --color-primary: #555188;
+    --color-primary2: #555188;
+
+    --color-border: oklch(0.9 0.04 290);
+    --color-background: oklch(0.99 0.01 290);
+    --color-primary: oklch(0.65 0.18 290);
+    --color-foreground: oklch(0.145 0 0);
+    --color-muted-foreground: oklch(0.5 0.05 290);
+
 }

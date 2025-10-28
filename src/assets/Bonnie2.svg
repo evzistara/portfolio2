@@ -1,34 +1,13 @@
-import { useState } from "react";
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
+ preserveAspectRatio="xMidYMid meet">
 
-function Navbar() {
-  const [buttonState, setButtonState] = useState(false);
-  function toggle() {
-    setButtonState(!buttonState);
-  }
-
-  return (
-    <nav className="bg-heading my-4 mx-4 rounded-lg shadow-md md:w-2xl md:mx-auto lg:w-4xl xl:w-5xl 2xl:w-7xl p-2 sticky top-5">
-      <div className="mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between">
-          <div className="flex-shrink-0 flex items-center">
-            <a href="/index.html">
-            <svg
-          className="bg-white rounded-4xl"
-          version="1.0"
-          xmlns="http://www.w3.org/2000/svg"
-          width="50px"
-          height="45px"
-          viewBox="0 0 1024.000000 1024.000000"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          <g
-            transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
-            fill="#000000"
-            stroke="#000000"
-            strokeWidth="60"
-          >
-            <path
-              d="M5045 9424 c-361 -33 -530 -64 -784 -146 -128 -41 -319 -118 -358
+<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M5045 9424 c-361 -33 -530 -64 -784 -146 -128 -41 -319 -118 -358
 -143 -14 -10 -46 -14 -90 -14 -130 2 -230 -45 -458 -215 -164 -123 -293 -211
 -485 -332 -260 -163 -386 -268 -472 -394 -128 -186 -99 -389 90 -638 170 -222
 481 -515 629 -592 40 -20 41 -22 31 -51 -17 -49 -4 -175 26 -270 l28 -85 -28
@@ -157,155 +136,14 @@ c-64 -58 -161 -110 -268 -140 -65 -19 -103 -23 -223 -23 -131 0 -155 3 -247
 3 -165 2 -178 -14 -178 -15 0 -18 9 -18 60 0 75 -17 116 -69 173 -45 49 -65
 58 -99 46 -31 -12 -28 -48 8 -106 19 -30 33 -69 37 -100 5 -46 3 -54 -20 -77
 -23 -23 -34 -26 -97 -26 -95 0 -183 20 -380 84 -160 52 -165 55 -168 83 -3 29
--3 29 100 52 173 39 370 126 495 219 29 22 44 23 129 1z"
-            />
-            <path
-              d="M6009 8096 c-60 -21 -96 -54 -124 -111 -63 -129 -30 -325 55 -325 50
-0 60 21 60 126 0 113 19 160 77 195 47 28 63 47 63 75 0 47 -60 65 -131 40z"
-            />
-            <path
-              d="M4632 7994 c-16 -11 -22 -24 -20 -42 2 -23 16 -34 83 -67 100 -50
+-3 29 100 52 173 39 370 126 495 219 29 22 44 23 129 1z"/>
+<path d="M6009 8096 c-60 -21 -96 -54 -124 -111 -63 -129 -30 -325 55 -325 50
+0 60 21 60 126 0 113 19 160 77 195 47 28 63 47 63 75 0 47 -60 65 -131 40z"/>
+<path d="M4632 7994 c-16 -11 -22 -24 -20 -42 2 -23 16 -34 83 -67 100 -50
 125 -90 125 -196 0 -81 5 -98 37 -110 36 -14 79 12 94 58 34 102 1 231 -76
-302 -68 62 -193 91 -243 55z"
-            />
-            <path
-              d="M3888 5259 c-10 -5 -18 -16 -18 -23 0 -25 38 -46 263 -140 372 -157
+302 -68 62 -193 91 -243 55z"/>
+<path d="M3888 5259 c-10 -5 -18 -16 -18 -23 0 -25 38 -46 263 -140 372 -157
 511 -235 685 -386 71 -61 87 -71 115 -68 100 10 -22 165 -251 318 -110 74
--334 182 -449 218 -331 102 -316 99 -345 81z"
-            />
-          </g>
-        </svg>
-            </a>
-          </div>
-
-          {/* Mobile menu toggle (hidden on md and up) */}
-          <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
-            <button
-              onClick={toggle}
-              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-none focus:ring-inset"
-              aria-controls="mobile-menu"
-              aria-expanded={buttonState}
-            >
-              <span className="sr-only">Open main menu</span>
-              {buttonState ? (
-                <svg
-                  className="size-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  className="size-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"
-                  />
-                </svg>
-              )}
-            </button>
-          </div>
-
-          {/* Desktop navigation links (hidden on small screens) */}
-          <div className="hidden md:ml-6 md:flex md:items-center space-x-4">
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#about"
-            >
-              About
-            </a>
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#skills"
-            >
-              Skills
-            </a>
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#projects"
-            >
-              Projects
-            </a>
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#experience"
-            >
-              Experience
-            </a>
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#"
-            >
-              SoMe
-            </a>
-            <a
-              className="rounded-md px-3 py-2 text-md font-bold text-white hover:bg-primary"
-              href="#contact"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile dropdown menu */}
-      {buttonState && (
-        <div className="md:hidden" id="mobile-menu">
-          <div className="space-y-1 px-2 pt-2 pb-3">
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#"
-            >
-              Home
-            </a>
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#about"
-            >
-              About
-            </a>
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#skills"
-            >
-              Skills
-            </a>
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#projects"
-            >
-              Projects
-            </a>
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#experience"
-            >
-              Experience
-            </a>
-            <a
-              className="block rounded-md px-3 py-2 text-md font-medium text-white hover:bg-primary"
-              href="#contact"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
-      )}
-    </nav>
-  );
-}
-
-export default Navbar;
+-334 182 -449 218 -331 102 -316 99 -345 81z"/>
+</g>
+</svg>

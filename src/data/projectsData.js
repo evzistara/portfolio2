@@ -51,7 +51,7 @@ export default [
     name: "Library",
     technologies: ["HTML", "CSS", "JavaScript"],
     description:
-      "A virtual bookshelf where users can manage their book collection. Users can add new books through a form modal, mark books as read/unread with a toggle button, and remove books from the list. The app demonstrates form handling, object constructors, prototype methods, and event-driven UI updates. ",
+      "A virtual bookshelf where users can add new books through a form modal, mark books as read/unread with a toggle button, and remove books from the list. The app uses localStorage to save the book data, ensuring that the list persists even after the page is refreshed.",
     site: "https://evzistara.github.io/books/",
     github: "https://github.com/evzistara/books",
     image: Library,
