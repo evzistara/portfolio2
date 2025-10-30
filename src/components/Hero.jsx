@@ -40,7 +40,7 @@ export default function Hero() {
   });
 
   return (
-    <section id="" className="py-32 px-10 md:py-40 md:px-24">
+    <section id="" className="py-32 px-10 md:py-40 md:px-24 bg-background/80">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <div className="inline-block mb-4 px-4 py-1.5 bg-primary/10 text-primary rounded-lg text-md font-semibold">

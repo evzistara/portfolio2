@@ -22,5 +22,6 @@ body {
     --color-foreground: oklch(0.145 0 0);
     --color-muted: oklch(0.95 0.03 290);
     --color-muted-foreground: oklch(0.5 0.05 290);
+    --color-card: oklch(0.18 0.03 290);
 
 }
