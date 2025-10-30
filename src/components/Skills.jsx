@@ -2,9 +2,9 @@ import data from "../data/skillData";
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-32 px-10 md:py-40 md:px-24">
+    <section id="skills" className="py-32 px-10 md:py-40 md:px-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
             My Skills
           </h2>
