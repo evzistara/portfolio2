@@ -10,6 +10,7 @@ import Figma from "../assets/skills/figma.svg";
 import Git from "../assets/skills/git.svg";
 import GitHub from "../assets/skills/github.svg";
 import WordPress from "../assets/skills/wordpress.svg";
+import TypeScript from "../assets/skills/typescript.svg"
 
 export default {
     "frontend": [
@@ -43,6 +44,11 @@ export default {
         "id": 6,
         "name": "Sass",
         "icon": Sass
+      },
+       {
+        "id": 7,
+        "name": "TypeScript",
+        "icon": TypeScript
       }
 
     ],
