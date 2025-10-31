@@ -14,36 +14,35 @@ import TypeScript from "../assets/skills/typescript.svg"
 
 export default {
     "frontend": [
-      {
+       {
         "id": 1,
-        "name": "JavaScript",
-        "icon": JavaScript
-      },
-      {
-        "id": 2,
-        "name": "React",
-        "icon": React
-      },
-      {
-        "id": 3,
         "name": "HTML",
         "icon": HTML
-      },
+      }, 
       {
-        "id": 4,
+        "id": 2,
         "name": "CSS",
         "icon": CSS
       },
       {
-        "id": 5,
+        "id": 3,
+        "name": "Sass",
+        "icon": Sass
+      },  
+      {
+        "id": 4,
         "name": "Tailwind CSS",
         "icon": TailwindCSS
       },
-  
+      {
+        "id": 5,
+        "name": "JavaScript",
+        "icon": JavaScript
+      },
       {
         "id": 6,
-        "name": "Sass",
-        "icon": Sass
+        "name": "React",
+        "icon": React
       },
        {
         "id": 7,
