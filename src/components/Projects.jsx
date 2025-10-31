@@ -34,35 +34,91 @@ export default function Projects() {
             Projects
           </h2>
 
-          <div className="flex flex-wrap gap-4 lg:gap-10">
-            {data.map((project) => (
-              <Card key={project.id} className="py-4 overflow-hidden w-xs bg-card border-border hover:border-primary/50 transition-all group">
-                <CardMedia
-                  sx={{ height: 200 }}
-                  image={project.image}
-                  title={`Picture of project called ${project.name}`}
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h6" component="div">
-                    {project.name}
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                 {project.description}
-                  </Typography>
-                  <div className="flex flex-wrap gap-2 mt-4">
-                  {project.technologies.map((tech,index) => (
-                    <div key={index} className="inline-block px-2 py-1 bg-primary/10 text-primary rounded-lg text-xs font-semibold">
-            {tech}
-          </div>))}</div>
-                </CardContent>
-                <CardActions>
-                   
-                  <OutlineButton variant="outlined" size="small" className="w-1/2"><a href={project.github}>Code</a></OutlineButton>
-                  <ColorButton variant="contained" size="small" className="w-1/2"><a href={project.site}>Demo</a></ColorButton>
-                </CardActions>
-              </Card>
-            ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+  {data.map((project) => (
+    <Card
+      key={project.id}
+      className="overflow-hidden bg-card border border-border hover:border-primary/50 transition-all group"
+    >
+  
+      <div className="relative aspect-video overflow-hidden bg-muted">
+        <CardMedia
+          component="img"
+          image={project.image}
+          alt={`Picture of project called ${project.name}`}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+      </div>
+
+  
+      <CardContent sx={{ p: 0 }}>
+        <div className="px-6 py-2" >
+          <Typography
+            variant="h6"
+            component="h3"
+            className="text-xl font-semibold text-foreground mb-2"
+          >
+            {project.name}
+          </Typography>
+
+          <Typography
+            variant="body2"
+            className="text-sm text-muted-foreground mb-4 leading-relaxed"
+          >
+            {project.description}
+          </Typography>
+
+          {project.technologies?.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-4 mt-4">
+              {project.technologies.map((tech, i) => (
+                <span
+                  key={`${project.id}-${tech}-${i}`}
+                  className="px-3 py-1 bg-primary/10 text-primary text-xs rounded-full font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          )}
+
+    
+          <div className="flex gap-2">
+            <OutlineButton
+              variant="outlined"
+              size="small"
+              className="flex-1 bg-transparent"
+            >
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center"
+              >
+                Code
+              </a>
+            </OutlineButton>
+
+            <ColorButton
+              variant="contained"
+              size="small"
+              className="flex-1"
+            >
+              <a
+                href={project.site}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center"
+              >
+                Demo
+              </a>
+            </ColorButton>
           </div>
+        </div>
+      </CardContent>
+    </Card>
+  ))}
+</div>
+
         </div>
       </div>
     </section>

@@ -23,31 +23,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <a
               href="#about"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               About
             </a>
             <a
-              href="#skills"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Skills
-            </a>
-            <a
               href="#projects"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Projects
             </a>
             <a
+              href="#skills"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Skills
+            </a>
+            <a
               href="#experience"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Experience
             </a>
             <a
               href="#contact"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-foreground transition-colors"
             >
               Contact
             </a>

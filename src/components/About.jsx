@@ -27,13 +27,13 @@ function About() {
             </p>
           </div>
           <div className="flex flex-col gap-4 mt-12 items-center md:flex-row">
-            <div className="border border-primary rounded-md w-xs h-xs flex items-center justify-center">
+            <div className="border border-primary bg-white p-2 rounded-md w-xs h-xs flex items-center justify-center">
               <img className="w-xs h-xs rounded-md" src={Evzi} alt="" />
             </div>
-            <div className="border border-primary rounded-md w-xs h-xs flex items-center justify-center">
+            <div className="border border-primary bg-white p-2 rounded-md w-xs h-xs flex items-center justify-center">
               <img className="w-xs h-xs object-cover rounded-md" src={EvziSport} alt="" />
             </div> 
-            <div className="border border-primary rounded-md w-xs h-xs flex items-center justify-center">
+            <div className="border border-primary bg-white p-2 rounded-md w-xs h-xs flex items-center justify-center">
               <img className="w-xs h-xs object-cover rounded-md" src={Bonnie} alt="" />
             </div>
             

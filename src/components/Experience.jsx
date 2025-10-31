@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 export default function Experience() {
   return (
     <section
-      id="projects"
+      id="experience"
       className="py-32 px-10 md:py-40 md:px-24 bg-background/80"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

@@ -35,7 +35,7 @@ export default function Hero() {
     borderColor: "#9076f3",
     textColor: "#9076f3",
     "&:hover": {
-      backgroundColor: "rgba(144, 118, 243, 0.1)",
+      backgroundColor: "rgba(144, 118, 243, 0.2)",
     },
   });
 
@@ -56,9 +56,9 @@ export default function Hero() {
               knowledge. I am a front-end developer, but I am also{" "}
               <span className="">{facts[index]}</span>
             </p>
-            <div className="flex flex-col gap-4 w-fit">
-              <ColorButton variant="contained">View my projects</ColorButton>
-              <OutlineButton variant="outlined">Get in touch</OutlineButton>
+            <div className="flex flex-col md:flex-row gap-4 w-fit">
+              <ColorButton variant="contained"><a href="#projects">View my projects</a></ColorButton>
+              <OutlineButton variant="outlined"><a href="#contact">Get in touch</a></OutlineButton>
             </div>
           </div>
         </div>
