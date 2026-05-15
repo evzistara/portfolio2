@@ -12,6 +12,7 @@ export default function Hero() {
     "a calisthenics enthusiast 💪",
     "a bookworm 📚",
     "an early bird ☀️",
+    "a curious soul 🧠",
   ];
 
   useEffect(() => {
@@ -51,14 +52,22 @@ export default function Hero() {
               Hey, I am Evzi!
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty">
-              I am a an ex-marketer with experience with SEO and SEM, but I
-              found my new passion in programming and also combining my
-              knowledge. I am a front-end developer, but I am also{" "}
+              Former SEO/SEM consultant who ended up liking the technical side
+              of websites more than the marketing itself. I enjoy building
+              things, figuring out how they work, and finding solutions when
+              something breaks.
+            </p>
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty">
+              I am a developer, but I am also{" "}
               <span className="">{facts[index]}</span>
             </p>
             <div className="flex flex-col md:flex-row gap-4 w-fit">
-              <ColorButton variant="contained"><a href="#projects">View my projects</a></ColorButton>
-              <OutlineButton variant="outlined"><a href="#contact">Get in touch</a></OutlineButton>
+              <ColorButton variant="contained">
+                <a href="#projects">View my projects</a>
+              </ColorButton>
+              <OutlineButton variant="outlined">
+                <a href="#contact">Get in touch</a>
+              </OutlineButton>
             </div>
           </div>
         </div>
