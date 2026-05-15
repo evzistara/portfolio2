@@ -10,82 +10,90 @@ import Figma from "../assets/skills/figma.svg";
 import Git from "../assets/skills/git.svg";
 import GitHub from "../assets/skills/github.svg";
 import WordPress from "../assets/skills/wordpress.svg";
-import TypeScript from "../assets/skills/typescript.svg"
+import TypeScript from "../assets/skills/typescript.svg";
+import PostgreSQL from "../assets/skills/postgresql.svg";
+import Java from "../assets/skills/java.svg";
 
 export default {
-    "frontend": [
-       {
-        "id": 1,
-        "name": "HTML",
-        "icon": HTML
-      }, 
-      {
-        "id": 2,
-        "name": "CSS",
-        "icon": CSS
-      },
-      {
-        "id": 3,
-        "name": "Sass",
-        "icon": Sass
-      },  
-      {
-        "id": 4,
-        "name": "Tailwind CSS",
-        "icon": TailwindCSS
-      },
-      {
-        "id": 5,
-        "name": "JavaScript",
-        "icon": JavaScript
-      },
-      {
-        "id": 6,
-        "name": "React",
-        "icon": React
-      },
-       {
-        "id": 7,
-        "name": "TypeScript",
-        "icon": TypeScript
-      }
-
-    ],
-    "backend": [
-  
-        {
-            "id": 1,
-            "name": "MySQL",
-            "icon": MySQL
-        },
-        {
-            "id": 2,
-            "name": "Firebase",
-            "icon": Firebase
-        }
-    ],
-    "tools":[
-         {
-        "id": 1,
-        "name": "Figma",
-        "icon": Figma
-      },
-      {
-        "id": 2,
-        "name": "Git",
-        "icon": Git
-      },
-      {
-        "id": 3,
-        "name": "GitHub",
-        "icon": GitHub
-      },
-      {
-        "id": 4,
-        "name": "WordPress",
-        "icon": WordPress
-      }    
-
-    ]
-  }
-  
+  frontend: [
+    {
+      id: 1,
+      name: "HTML",
+      icon: HTML,
+    },
+    {
+      id: 2,
+      name: "CSS",
+      icon: CSS,
+    },
+    {
+      id: 3,
+      name: "Sass",
+      icon: Sass,
+    },
+    {
+      id: 4,
+      name: "Tailwind CSS",
+      icon: TailwindCSS,
+    },
+    {
+      id: 5,
+      name: "JavaScript",
+      icon: JavaScript,
+    },
+    {
+      id: 6,
+      name: "React",
+      icon: React,
+    },
+    {
+      id: 7,
+      name: "TypeScript",
+      icon: TypeScript,
+    },
+  ],
+  backend: [
+    {
+      id: 1,
+      name: "MySQL",
+      icon: MySQL,
+    },
+    {
+      id: 2,
+      name: "Firebase",
+      icon: Firebase,
+    },
+    {
+      id: 3,
+      name: "PostgreSQL",
+      icon: PostgreSQL,
+    },
+    {
+      id: 4,
+      name: "Java",
+      icon: Java,
+    },
+  ],
+  tools: [
+    {
+      id: 1,
+      name: "Figma",
+      icon: Figma,
+    },
+    {
+      id: 2,
+      name: "Git",
+      icon: Git,
+    },
+    {
+      id: 3,
+      name: "GitHub",
+      icon: GitHub,
+    },
+    {
+      id: 4,
+      name: "WordPress",
+      icon: WordPress,
+    },
+  ],
+};
