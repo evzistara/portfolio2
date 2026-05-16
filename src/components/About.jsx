@@ -22,7 +22,7 @@ function About() {
 
             <p className="mb-6">
               I’ve been interested in programming since I was a teenager, but I
-              thought I didn't have what it take. Few years agi I decided that
+              thought I didn't have what it take. Few years ago I decided that
               wasn't true and started my journey with different courses and a
               year at university. What I enjoy most is figuring things out,
               fixing problems, and making ideas actually work. I’m naturally
