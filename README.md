@@ -6,8 +6,7 @@ This is my new personal portfolio displaying information about me and my project
 
 ## 📸 Preview
 
-![Screenshot](/src/assets/project-preview.jpg)  
-
+![Screenshot](/src/assets/project-preview.png)
 
 ---
 
@@ -23,5 +22,3 @@ This is my new personal portfolio displaying information about me and my project
 - Framework: `React`
 - Styling: `TailwindCSS`
 - Tools: `Vite, Netlify`
-
-
