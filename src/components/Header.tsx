@@ -54,8 +54,6 @@ export default function Header() {
           </nav>
 
           <button
-            variant="ghost"
-            size="icon"
             className="md:hidden"
             onClick={toggle}
             aria-label="Toggle menu"
@@ -68,42 +66,42 @@ export default function Header() {
           </button>
         </div>
 
-      {buttonState && (
-        <div className="md:hidden py-4 border-t border-border">
-          <nav className="flex flex-col gap-4">
-            <a
-              href="#about"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#skills"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Skills
-            </a>
-            <a
-              href="#projects"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Projects
-            </a>
-            <a
-              href="#experience"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Experience
-            </a>
-            <a
-              href="#contact"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Contact
-            </a>
-          </nav>
-        </div>
-      )}
+        {buttonState && (
+          <div className="md:hidden py-4 border-t border-border">
+            <nav className="flex flex-col gap-4">
+              <a
+                href="#about"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                About
+              </a>
+              <a
+                href="#skills"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Skills
+              </a>
+              <a
+                href="#projects"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Projects
+              </a>
+              <a
+                href="#experience"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Experience
+              </a>
+              <a
+                href="#contact"
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Contact
+              </a>
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );

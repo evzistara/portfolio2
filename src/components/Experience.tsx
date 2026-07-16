@@ -1,4 +1,5 @@
-import data from "../data/experienceData";
+import uniData from "../data/universityData";
+import workData from "../data/workData";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
@@ -15,7 +16,7 @@ export default function Experience() {
             Education
           </h2>
           <div className="">
-            {data.university.map((uni) => (
+            {uniData.map((uni) => (
               <Card
                 key={uni.id}
                 className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
@@ -39,14 +40,12 @@ export default function Experience() {
                       </Typography>
                     </div>
 
-                     
-                      <Typography
-                        variant="body2"
-                        className="text-sm text-muted-foreground mt-1 md:mt-0"
-                      >
-                        {uni.period}
-                      </Typography>
-                
+                    <Typography
+                      variant="body2"
+                      className="text-sm text-muted-foreground mt-1 md:mt-0"
+                    >
+                      {uni.period}
+                    </Typography>
                   </div>
 
                   <Typography
@@ -61,12 +60,12 @@ export default function Experience() {
           </div>
         </div>
 
-          <div className="max-w-8xl mx-auto mt-24">
+        <div className="max-w-8xl mx-auto mt-24">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
             Experience
           </h2>
           <div className="">
-            {data.work.map((work) => (
+            {workData.map((work) => (
               <Card
                 key={work.id}
                 className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
@@ -90,14 +89,12 @@ export default function Experience() {
                       </Typography>
                     </div>
 
-                 
-                      <Typography
-                        variant="body2"
-                        className="text-sm text-muted-foreground mt-1 md:mt-0"
-                      >
-                        {work.period}
-                      </Typography>
-                    
+                    <Typography
+                      variant="body2"
+                      className="text-sm text-muted-foreground mt-1 md:mt-0"
+                    >
+                      {work.period}
+                    </Typography>
                   </div>
 
                   <Typography

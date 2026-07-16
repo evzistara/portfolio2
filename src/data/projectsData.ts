@@ -1,37 +1,13 @@
 import WeatherApp from "../assets/projects/weather-app.png";
 import Library from "../assets/projects/library.png";
 import CookingHelper from "../assets/projects/cookingHelper.png";
-import comingSoon from "../assets/projects/comingSoon.png";
-import questPicker from "../assets/projects/questPicker.png";
 import Grimsoybua from "../assets/projects/grimsoybua.png";
-import Prive from "../assets/projects/prive.png";
 import Wedding from "../assets/projects/wedding.png";
 
 export default {
   personal: [
-    /*
-  {
-    id: 1,
-    name: "Dog Food Calculator",
-    technologies: [""],
-    description:
-      "A web application that helps dog owners determine the right amount of food based on specific criterias",
-    site: "",
-    github: "",
-    image: comingSoon,
-  },*/
     {
-      id: 2,
-      name: "Quest Picker",
-      technologies: ["React", "TalwindCSS", "JavaScript"],
-      description:
-        "A tool that helps you pick either a random task or a task from specific category to complete.",
-      site: "https://evzistara.github.io/questpicker/",
-      github: "https://github.com/evzistara/questpicker",
-      image: questPicker,
-    },
-    {
-      id: 3,
+      id: 1,
       name: "Cooking Helper",
       technologies: ["React", "TailwindCSS", "Claude AI"],
       description:
@@ -41,7 +17,7 @@ export default {
       image: CookingHelper,
     },
     {
-      id: 4,
+      id: 2,
       name: "Weather App",
       technologies: ["HTML", "Bootstrap", "JavaScript", "API"],
       description:
@@ -51,9 +27,9 @@ export default {
       image: WeatherApp,
     },
     {
-      id: 5,
+      id: 3,
       name: "Library",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["TypeScript", "React", "Vite", "TailwindCSS"],
       description:
         "A virtual bookshelf where users can have overview of their books - they can add books and mark them as read",
       site: "https://evzistara.github.io/books/",
@@ -79,15 +55,6 @@ export default {
         "Partly vibe coded website for a wedding. I was responsible for the design and development of the website.",
       site: "https://kent-og-mayliss.vercel.app/",
       image: Wedding,
-    },
-    {
-      id: 3,
-      name: "Privé Fredrikstad",
-      technologies: ["WordPress"],
-      description:
-        "Simple webpage for a beauty salon in Fredrikstad, Norway. This page is currently under development.",
-      site: "https://privefredrikstad.no/",
-      image: Prive,
     },
   ],
 };

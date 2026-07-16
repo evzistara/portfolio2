@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import { Github, Linkedin, Mail, Instagram } from "lucide-react";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function Footer() {
   const ColorButton = styled(Button)(({ theme }) => ({
@@ -23,44 +24,32 @@ export default function Footer() {
             opportunities. Feel free to reach out if you'd like to collaborate!
           </p>
 
-          <ColorButton size="lg">
+          <ColorButton size="large">
             <div className="flex gap-2 items-center ">
-              <Mail className="mr-2 h-5 w-5" />
-              <a href="mailto:evzi.stara@gmail.com">
-          
-                Get In Touch
-              </a>
+              <MdOutlineEmail className="mr-2 h-5 w-5" />
+              <a href="mailto:evzi.stara@gmail.com">Get In Touch</a>
             </div>
           </ColorButton>
 
           <div className="flex items-center justify-center gap-4 mb-8 mt-8">
-            <Button variant="ghost" size="icon">
+            <Button>
               <a
                 href="https://github.com/evzistara"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
               >
-                <Github className="h-5 w-5" />
+                <FaGithub className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="ghost" size="icon">
+            <Button>
               <a
                 href="https://www.linkedin.com/in/evzenie-jitka-stara/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </Button>
-
-            <Button variant="ghost" size="icon">
-              <a href="https://www.tiktok.com/@evzis"
-              target="_blank"
-              rel="noopener noreferrer" 
-              aria-label="TikTok">
-                <Instagram className="h-5 w-5" />
+                <FaLinkedinIn className="h-5 w-5" />
               </a>
             </Button>
           </div>
