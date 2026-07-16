@@ -1,27 +1,27 @@
 @import "tailwindcss";
 
-*{
+* {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @theme {
-    --color-backgroundDark: #FFC9B5;
-    --color-backgroundLight: #FFF9F6;
-    --color-text: #3F3D56;
-    --color-heading: #665B6D;
-    --color-highlight: #C7D3BF;
-    --color-primary2: #555188;
+  --color-backgroundDark: #ffc9b5;
+  --color-backgroundLight: #fff9f6;
+  --color-text: #3f3d56;
+  --color-heading: #665b6d;
+  --color-highlight: #c7d3bf;
+  --color-primary2: #555188;
 
-    --color-border: oklch(0.9 0.04 290);
-    --color-background: oklch(0.99 0.01 290);
-    --color-primary: oklch(0.65 0.18 290);
-    --color-foreground: oklch(0.145 0 0);
-    --color-muted: oklch(0.95 0.03 290);
-    --color-muted-foreground: oklch(0.5 0.05 290);
-    --color-card: oklch(0.18 0.03 290);
-
+  --color-border: oklch(0.9 0.04 290);
+  --color-background: oklch(0.99 0.01 290);
+  --color-primary: oklch(0.65 0.18 290);
+  --color-foreground: oklch(0.145 0 0);
+  --color-muted: oklch(0.95 0.03 290);
+  --color-muted-foreground: oklch(0.5 0.05 290);
+  --color-card: oklch(0.18 0.03 290);
+  --font-heading: "Marck Script", sans-serif;
 }
