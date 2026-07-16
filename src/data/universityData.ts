@@ -13,7 +13,7 @@ const data: University[] = [
     id: 1,
     name: "Fullstand Development Career Path",
     school: "Online course, Scrimba",
-    period: "06/2026 - ",
+    period: "06/2026 - now",
     info: "Focused on skills from the JavaScript ecosystem, including React, Node, Express, Next, TypeScript, and even AI engineering.",
   },
   {
