@@ -9,7 +9,7 @@ export default function Skills() {
             My Skills
           </h2>
 
-          <div className="my-10">
+          <div className="my-5">
             <h3 className="text-xl mb-2 text-foreground">Front-end</h3>
             <div className="flex flex-wrap gap-4 py-2 mb-1">
               {data.frontend.map((skill) => (
@@ -17,18 +17,14 @@ export default function Skills() {
                   key={skill.id}
                   className="flex gap-2 bg-white rounded-md px-4 py-2 items-center mb-1 shadow-md shadow-primary/30 hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 ease-in-out"
                 >
-                  <img
-                    className="h-10 w-10"
-                    src={skill.icon}
-                    alt={`Icon of ${skill.name}`}
-                  />
+                  <i className={`${skill.icon} text-3xl`}></i>
                   <p>{skill.name}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="my-10">
+          <div className="my-5">
             <h3 className="text-xl mb-2  text-foreground">Back-end</h3>
             <div className="flex flex-wrap gap-4 py-2 mb-1">
               {data.backend.map((skill) => (
@@ -36,18 +32,14 @@ export default function Skills() {
                   key={skill.id}
                   className="flex gap-2 bg-white rounded-md px-4 py-2 items-center mb-1 shadow-md shadow-primary/30 hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 ease-in-out"
                 >
-                  <img
-                    className="h-10 w-10"
-                    src={skill.icon}
-                    alt={`Icon of ${skill.name}`}
-                  />
+                  <i className={`${skill.icon} text-3xl`}></i>
                   <p>{skill.name}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="my-10">
+          <div className="my-5">
             <h3 className="text-xl mb-2 text-foreground">Tools</h3>
             <div className="flex gap-4 flex-wrap py-2 mb-1">
               {data.tools.map((skill) => (
@@ -55,11 +47,7 @@ export default function Skills() {
                   key={skill.id}
                   className="flex gap-2 bg-white rounded-md px-4 py-2 items-center mb-1 shadow-md shadow-primary/30 hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 ease-in-out"
                 >
-                  <img
-                    className="h-10 w-10"
-                    src={skill.icon}
-                    alt={`Icon of ${skill.name}`}
-                  />
+                  <i className={`${skill.icon} text-3xl`}></i>
                   <p>{skill.name}</p>
                 </div>
               ))}
