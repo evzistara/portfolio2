@@ -1,99 +1,83 @@
-import JavaScript from "../assets/skills/javascript.svg";
-import React from "../assets/skills/react.svg";
-import HTML from "../assets/skills/html.svg";
-import CSS from "../assets/skills/css.svg";
-import TailwindCSS from "../assets/skills/tailwindcss.svg";
-import Sass from "../assets/skills/sass.svg";
-import MySQL from "../assets/skills/mysql.svg";
-import Firebase from "../assets/skills/firebase.svg";
-import Figma from "../assets/skills/figma.svg";
-import Git from "../assets/skills/git.svg";
-import GitHub from "../assets/skills/github.svg";
-import WordPress from "../assets/skills/wordpress.svg";
-import TypeScript from "../assets/skills/typescript.svg";
-import PostgreSQL from "../assets/skills/postgresql.svg";
-import Java from "../assets/skills/java.svg";
-
 export default {
   frontend: [
     {
       id: 1,
       name: "HTML",
-      icon: HTML,
+      icon: "devicon-html5-plain-wordmark colored",
     },
     {
       id: 2,
       name: "CSS",
-      icon: CSS,
+      icon: "devicon-css3-plain-wordmark colored",
     },
     {
       id: 3,
       name: "Sass",
-      icon: Sass,
+      icon: "devicon-sass-original colored",
     },
     {
       id: 4,
       name: "Tailwind CSS",
-      icon: TailwindCSS,
+      icon: "devicon-tailwindcss-original colored",
     },
     {
       id: 5,
       name: "JavaScript",
-      icon: JavaScript,
+      icon: "devicon-javascript-plain colored",
     },
     {
       id: 6,
       name: "React",
-      icon: React,
+      icon: "devicon-react-original colored",
     },
     {
       id: 7,
       name: "TypeScript",
-      icon: TypeScript,
+      icon: "devicon-typescript-plain colored",
     },
   ],
   backend: [
     {
       id: 1,
       name: "MySQL",
-      icon: MySQL,
+      icon: "devicon-mysql-original colored",
     },
     {
       id: 2,
       name: "Firebase",
-      icon: Firebase,
+      icon: "devicon-firebase-plain colored",
     },
     {
       id: 3,
       name: "PostgreSQL",
-      icon: PostgreSQL,
+      icon: "devicon-postgresql-plain colored",
     },
     {
       id: 4,
       name: "Java",
-      icon: Java,
+      icon: "devicon-java-plain colored",
     },
   ],
   tools: [
     {
       id: 1,
       name: "Figma",
-      icon: Figma,
+      icon: "devicon-figma-plain colored",
     },
     {
       id: 2,
       name: "Git",
-      icon: Git,
+      icon: "devicon-git-plain colored",
     },
     {
       id: 3,
       name: "GitHub",
-      icon: GitHub,
+      icon: "devicon-github-original colored",
     },
     {
       id: 4,
       name: "WordPress",
-      icon: WordPress,
+      icon: "devicon-wordpress-plain colored",
     },
   ],
 };
