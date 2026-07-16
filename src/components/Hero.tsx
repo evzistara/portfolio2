@@ -44,20 +44,20 @@ export default function Hero() {
     <section id="" className="py-32 px-10 md:py-40 md:px-24 bg-background/80">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <div className="inline-block mb-4 px-4 py-1.5 bg-primary/10 text-primary rounded-lg text-md font-semibold">
+          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
             Frontend Developer
           </div>
           <div className="">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
-              Hey, I am Evzi!
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading text-foreground mb-6 text-balance">
+              Love learning & fixing problems
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty">
-              Former SEO/SEM consultant who ended up liking the technical side
-              of websites more than the marketing itself. I enjoy building
-              things, figuring out how they work, and finding solutions when
-              something breaks.
+            <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
+              Hey, I am Evzi! Former SEO/SEM consultant who ended up liking the
+              technical side of websites more than the marketing itself. I enjoy
+              building things, figuring out how they work, and finding solutions
+              when something breaks.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed text-pretty">
+            <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
               I am a developer, but I am also{" "}
               <span className="">{facts[index]}</span>
             </p>
