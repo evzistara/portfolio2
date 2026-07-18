@@ -12,9 +12,14 @@ export default function Experience() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-8xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
+          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+            Career & Education
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
             Education
           </h2>
+
           <div className="">
             {uniData.map((uni) => (
               <Card
@@ -23,6 +28,12 @@ export default function Experience() {
               >
                 <CardContent className="p-0">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                    <Typography
+                      variant="body2"
+                      className="text-sm text-muted-foreground mt-1 md:mt-0"
+                    >
+                      {uni.period}
+                    </Typography>
                     <div>
                       <Typography
                         variant="h6"
@@ -38,22 +49,14 @@ export default function Experience() {
                       >
                         {uni.school}
                       </Typography>
+                      <Typography
+                        variant="body2"
+                        className="text-muted-foreground leading-relaxed"
+                      >
+                        {uni.info}
+                      </Typography>
                     </div>
-
-                    <Typography
-                      variant="body2"
-                      className="text-sm text-muted-foreground mt-1 md:mt-0"
-                    >
-                      {uni.period}
-                    </Typography>
                   </div>
-
-                  <Typography
-                    variant="body2"
-                    className="text-muted-foreground leading-relaxed"
-                  >
-                    {uni.info}
-                  </Typography>
                 </CardContent>
               </Card>
             ))}
@@ -61,7 +64,7 @@ export default function Experience() {
         </div>
 
         <div className="max-w-8xl mx-auto mt-24">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
             Experience
           </h2>
           <div className="">
