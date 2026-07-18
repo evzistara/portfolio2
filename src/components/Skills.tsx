@@ -5,12 +5,14 @@ export default function Skills() {
     <section id="skills" className="py-32 px-10 md:py-40 md:px-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-8xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-            My Skills
-          </h2>
+          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+            My skills
+          </div>
 
-          <div className="my-5">
-            <h3 className="text-xl mb-2 text-foreground">Front-end</h3>
+          <div className="">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground text-balance mb-2">
+              Front-end
+            </h2>
             <div className="flex flex-wrap gap-4 py-2 mb-1">
               {data.frontend.map((skill) => (
                 <div
@@ -25,7 +27,9 @@ export default function Skills() {
           </div>
 
           <div className="my-5">
-            <h3 className="text-xl mb-2  text-foreground">Back-end</h3>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground text-balance mb-2">
+              Back-end
+            </h2>
             <div className="flex flex-wrap gap-4 py-2 mb-1">
               {data.backend.map((skill) => (
                 <div
@@ -40,7 +44,9 @@ export default function Skills() {
           </div>
 
           <div className="my-5">
-            <h3 className="text-xl mb-2 text-foreground">Tools</h3>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground text-balance mb-2">
+              Tools
+            </h2>
             <div className="flex gap-4 flex-wrap py-2 mb-1">
               {data.tools.map((skill) => (
                 <div
