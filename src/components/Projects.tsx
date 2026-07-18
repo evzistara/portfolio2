@@ -32,11 +32,15 @@ export default function Projects() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-8xl mx-auto">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
+            <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+              Projects
+            </div>
+            {/* WORK PROJECTS */}
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
               Work Projects
             </h2>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               {data.work.map((project) => (
                 <Card
                   key={project.id}
@@ -120,12 +124,13 @@ export default function Projects() {
               ))}
             </div>
           </div>
+          {/* PERSONAL PROJECTS */}
           <div className="mt-24">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
               Personal Projects
             </h2>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               {data.personal.map((project) => (
                 <Card
                   key={project.id}
