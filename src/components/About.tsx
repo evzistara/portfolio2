@@ -1,6 +1,6 @@
-import Evzi from "../assets/Evzi.jpg";
-import Bonnie from "../assets/EvziBonnie.jpeg";
-import EvziSport from "../assets/EvziSport.jpg";
+import Evzi2 from "../assets/Evzi2.png";
+import Evzi3 from "../assets/Evzi3.png";
+import Evzi4 from "../assets/Evzi4.png";
 
 function About() {
   return (
@@ -45,11 +45,11 @@ function About() {
               </div>
             </div>
             <div className="grid grid-cols-1 gap-4 justify-center items-center md:grid-cols-2">
-              <img className="rounded-md md:col-span-full" src={Evzi} alt="" />
+              <img className="rounded-md md:col-span-full" src={Evzi3} alt="" />
 
-              <img className="object-cover rounded-md" src={EvziSport} alt="" />
+              <img className="object-cover rounded-md" src={Evzi2} alt="" />
 
-              <img className="object-cover rounded-md" src={Bonnie} alt="" />
+              <img className="object-cover rounded-md" src={Evzi4} alt="" />
             </div>
           </div>
         </div>
