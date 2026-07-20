@@ -3,6 +3,8 @@ import workData from "../data/workData";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+import { CiCalendar } from "react-icons/ci";
+import { CiLocationOn } from "react-icons/ci";
 
 export default function Experience() {
   return (
@@ -27,13 +29,28 @@ export default function Experience() {
                 className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
               >
                 <CardContent className="p-0">
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                    <Typography
-                      variant="body2"
-                      className="text-sm text-muted-foreground mt-1 md:mt-0"
-                    >
-                      {uni.period}
-                    </Typography>
+                  <div className="flex flex-col gap-4 md:flex-row items-start">
+                    
+                    <div className="flex flex-col gap-2 w-full md:w-1/4 md:shrink-0">
+                      <div className="flex items-center gap-2">
+                        <CiCalendar />
+                        <Typography
+                          variant="body2"
+                          className="text-sm text-muted-foreground mt-1 md:mt-0"
+                        >
+                          {uni.period}
+                        </Typography>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CiLocationOn />
+                        <Typography
+                          variant="body2"
+                          className="text-sm text-muted-foreground mt-1 md:mt-0"
+                        >
+                          {uni.location}
+                        </Typography>
+                      </div>
+                    </div>
                     <div>
                       <Typography
                         variant="h6"
@@ -67,14 +84,35 @@ export default function Experience() {
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
             Experience
           </h2>
-          <div className="">
+  <div className="">
             {workData.map((work) => (
               <Card
                 key={work.id}
                 className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
               >
                 <CardContent className="p-0">
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                  <div className="flex flex-col gap-4 md:flex-row items-start">
+                    
+                    <div className="flex flex-col gap-2 w-full md:w-1/4 md:shrink-0">
+                      <div className="flex items-center gap-2">
+                        <CiCalendar />
+                        <Typography
+                          variant="body2"
+                          className="text-sm text-muted-foreground mt-1 md:mt-0"
+                        >
+                          {work.period}
+                        </Typography>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <CiLocationOn />
+                        <Typography
+                          variant="body2"
+                          className="text-sm text-muted-foreground mt-1 md:mt-0"
+                        >
+                          {work.location}
+                        </Typography>
+                      </div>
+                    </div>
                     <div>
                       <Typography
                         variant="h6"
@@ -90,22 +128,14 @@ export default function Experience() {
                       >
                         {work.company}
                       </Typography>
+                      <Typography
+                        variant="body2"
+                        className="text-muted-foreground leading-relaxed"
+                      >
+                        {work.tasks}
+                      </Typography>
                     </div>
-
-                    <Typography
-                      variant="body2"
-                      className="text-sm text-muted-foreground mt-1 md:mt-0"
-                    >
-                      {work.period}
-                    </Typography>
                   </div>
-
-                  <Typography
-                    variant="body2"
-                    className="text-muted-foreground leading-relaxed"
-                  >
-                    {work.tasks}
-                  </Typography>
                 </CardContent>
               </Card>
             ))}
