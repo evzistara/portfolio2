@@ -13,6 +13,8 @@ export default function Hero() {
     "a bookworm 📚",
     "an early bird ☀️",
     "a curious soul 🧠",
+    "a semi frontend dev 💻",
+    "A SAP BW consultant 🪏",
   ];
 
   useEffect(() => {
@@ -52,16 +54,15 @@ export default function Hero() {
               Love learning & fixing problems
             </h1>
             <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              Hey, I am Evzi! I love tech and after some trail and error I found
+              Hey, I am Evzi! I love tech and after some trial and error I found
               out I wanted to work with data! I dabbed with frontend development
-              for few years, but realized that might not be the right fit.
-              SFormer SEO/SEM consultant who ended up liking the technical side
-              of websites more than the marketing itself. I enjoy building
-              things, figuring out how they work, and finding solutions when
-              something breaks.
+              for few years, but realized that might not be the right fit. I am
+              also a former SEO/SEM consultant. I enjoy building things,
+              figuring out how they work, and finding solutions when something
+              breaks.
             </p>
             <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
-              I am a developer, but I am also{" "}
+              I am a techie, but I am also{" "}
               <span className="">{facts[index]}</span>
             </p>
             <div className="flex flex-col md:flex-row gap-4 w-fit">
