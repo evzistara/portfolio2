@@ -3,9 +3,20 @@ import Library from "../assets/projects/library.png";
 import CookingHelper from "../assets/projects/cookingHelper.png";
 import Grimsoybua from "../assets/projects/grimsoybua.png";
 import Wedding from "../assets/projects/wedding.png";
+import Calistehnics from "../assets/projects/calisthenics.png";
 
 export default {
   personal: [
+    {
+      id: 1,
+      name: "Calisthenics Skills",
+      technologies: ["React", "TailwindCSS", "TypeScript", "Supabase"],
+      description:
+        "Overview of calisthenic skills with their progressions and possibility to login and track progress.",
+      site: "#",
+      github: "https://github.com/evzistara/calisthenics-skills",
+      image: Calistehnics,
+    },
     {
       id: 1,
       name: "Cooking Helper",

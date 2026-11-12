@@ -5,6 +5,7 @@ export type University = {
   name: string;
   school: string;
   period: string;
+  location: string;
   info: string;
 };
 
@@ -12,15 +13,17 @@ const data: University[] = [
   {
     id: 1,
     name: "Fullstand Development Career Path",
-    school: "Online course, Scrimba",
+    school: "Scrimba course",
     period: "06/2026 - now",
+    location: "Online",
     info: "Focused on skills from the JavaScript ecosystem, including React, Node, Express, Next, TypeScript, and even AI engineering.",
   },
   {
     id: 2,
     name: "Frontend Development Career Path",
-    school: "Online course, Scrimba",
+    school: "Scrimba course",
     period: "06/2025 - 10/2025",
+    location: "Online",
     info: "Completed comprehensive coursework in modern frontend framworks and best practices",
   },
   {
@@ -28,6 +31,7 @@ const data: University[] = [
     name: "1 year IT program OsloMet",
     school: "OsloMet",
     period: "08/2024 - 06/2025",
+    location: "Oslo, Norway",
     info: "I studied following subjects: Inclusive web design, Programing, Interaction design, IoT, Databases, Web programming",
   },
   {
@@ -35,6 +39,7 @@ const data: University[] = [
     name: "Master's degree in Economy and Management",
     school: "University of Economy and Management",
     period: "09/2018 - 06/2020",
+    location: "Praha, Czech Republic",
     info: "I specialized in marketing and advertisment and got to learn about both offline and offline marketing",
   },
 ];
