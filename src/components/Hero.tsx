@@ -53,7 +53,7 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading text-foreground mb-6 text-balance">
               Love learning & fixing problems
             </h1>
-            <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty">
+            <p className="text-lg md:text-lg text-muted-foreground mb-8 leading-relaxed text-pretty md:text-justify">
               Hey, I am Evzi! I love tech and after some trial and error I found
               out I wanted to work with data! I dabbed with frontend development
               for few years, but realized that might not be the right fit. I am

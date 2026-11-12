@@ -1,55 +1,49 @@
-import Evzi2 from "../assets/Evzi2.png";
-import Evzi3 from "../assets/Evzi3.png";
-import Evzi4 from "../assets/Evzi4.png";
+import Evzi5 from "../assets/Evzi5.jpg";
 
 function About() {
   return (
     <section id="about" className="py-32 px-10 md:py-40 md:px-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-8xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start justify-center">
-            <div className="">
-              <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
-                About me{" "}
-              </div>
-              <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
-                Hey, it's Evzi
-              </h2>
-              <div className="basis-md">
+          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+            About me{" "}
+          </div>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
+            Hey, it's Evzi
+          </h2>
+          <div className="flow-root">
+            <div>
+              <img
+                className="rounded-md w-full mb-6 md:w-1/2 md:float-right md:ml-12 md:mb-4 md:mt-1.5"
+                src={Evzi5}
+                alt=""
+              />
+              <div className="md:text-justify">
                 <p className="mb-4">
-                  I’m a developer based in Oslo, Norway, with a background in
-                  SEO and SEM. I have a master’s degree in Economics and
-                  Marketing, completed a one-year IT study program at OsloMet,
-                  and a Frontend developer course from Scrimba. These days I
-                  work as a SAP developer with making WordPress website on the
-                  side, but web development is still the area I enjoy exploring
-                  the most.
+                  I'll be honest. I am not the typical corporate type. I don’t
+                  like working at a fast pace, I don’t do things at the "cutting
+                  edge," and the only thing I’m passionate about is getting home
+                  before rush hour.
                 </p>
-
-                <p className="mb-6">
-                  I’ve been interested in programming since I was a teenager,
-                  but I thought I didn't have what it take. Few years ago I
-                  decided that wasn't true and started my journey with different
-                  courses and a year at university. What I enjoy most is
-                  figuring things out, fixing problems, and making ideas
-                  actually work.
+                <p className="mb-4">
+                  I like tech. It took me a few years to figure out what I
+                  actually want to do, and now I’ve landed on data. I work as an
+                  consultant at the Norwegian Armed Forces with SAP BW, so data
+                  is one thing I’m certainly not lacking :) Now I’m on my way
+                  toward orienting myself more toward data engineering. I have a
+                  background working 4 years as an SEO and SEM consultant. I
+                  have a master’s degree in economics and marketing, a one-year
+                  IT program from OsloMet, and a frontend developer course from
+                  Scrimba. Currently, I’m diving deeper into SQL and Python.
                 </p>
-                <p className="mb-6">
-                  I’m naturally curious, so I tend to fall into rabbit holes
-                  learning new technologies or experimenting with projects just
-                  because they sound interesting. Outside of coding, you’ll
+                <p className="mb-4">
+                  I’m an honest and direct person. I’m also curious, love to
+                  learn and explore, and frequently come up with advice and
+                  improvements no one asked for :) Outside of tech, you’ll
                   usually find me reading fantasy books, watching anime, doing
-                  calisthenics, trying not to die during a run, or hanging out
-                  with my dog Bonnie.
+                  calisthenics or hanging out with my dog Bonnie.
                 </p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 gap-4 justify-center items-center md:grid-cols-2">
-              <img className="rounded-md md:col-span-full" src={Evzi3} alt="" />
-
-              <img className="object-cover rounded-md" src={Evzi2} alt="" />
-
-              <img className="object-cover rounded-md" src={Evzi4} alt="" />
             </div>
           </div>
         </div>
