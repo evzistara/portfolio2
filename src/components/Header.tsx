@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Bonnie from "../assets/Bonnie2.svg";
+import Bonnie from "../assets/bonnie-head.webp";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -14,8 +14,14 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 flex items-center justify-center group-hover:scale-105 transition-transform">
-              <img src={Bonnie} alt="Icon of a dog" className="h-20" />
+            <div className="flex items-center gap-3 group-hover:scale-105 transition-transform">
+              <img
+                src={Bonnie}
+                alt="Bonnie the dog"
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full bg-primary/10 object-cover"
+              />
               <p className="text-lg font-semibold">EJS</p>
             </div>
           </a>
@@ -23,31 +29,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <a
               href="#about"
-              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-accent-strong transition-colors"
             >
               About
             </a>
             <a
               href="#projects"
-              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-accent-strong transition-colors"
             >
               Projects
             </a>
             <a
               href="#skills"
-              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-accent-strong transition-colors"
             >
               Skills
             </a>
             <a
               href="#experience"
-              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-accent-strong transition-colors"
             >
               Experience
             </a>
             <a
               href="#contact"
-              className="text-md text-muted-foreground hover:text-foreground transition-colors"
+              className="text-md text-muted-foreground hover:text-accent-strong transition-colors"
             >
               Contact
             </a>
@@ -71,31 +77,31 @@ export default function Header() {
             <nav className="flex flex-col gap-4">
               <a
                 href="#about"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-accent-strong transition-colors"
               >
                 About
               </a>
               <a
                 href="#skills"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-accent-strong transition-colors"
               >
                 Skills
               </a>
               <a
                 href="#projects"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-accent-strong transition-colors"
               >
                 Projects
               </a>
               <a
                 href="#experience"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-accent-strong transition-colors"
               >
                 Experience
               </a>
               <a
                 href="#contact"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-accent-strong transition-colors"
               >
                 Contact
               </a>

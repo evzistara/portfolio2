@@ -1,4 +1,53 @@
 export default {
+  data: [
+    {
+      id: 1,
+      name: "SQL",
+      icon: "devicon-azuresqldatabase-plain colored",
+    },
+    {
+      id: 2,
+      name: "DuckDB",
+      icon: "devicon-duckdb-plain colored",
+    },
+    {
+      id: 3,
+      name: "MotherDuck",
+      icon: "fa-solid fa-cloud text-primary",
+    },
+    {
+      id: 4,
+      name: "PostgreSQL",
+      icon: "devicon-postgresql-plain colored",
+    },
+    {
+      id: 5,
+      name: "MySQL",
+      icon: "devicon-mysql-original colored",
+    },
+    {
+      id: 6,
+      name: "Firebase",
+      icon: "devicon-firebase-plain colored",
+    },
+  ],
+  sap: [
+    {
+      id: 1,
+      name: "SAP BW/4HANA",
+      icon: "fa-solid fa-cubes text-primary",
+    },
+    {
+      id: 2,
+      name: "SAP ECC",
+      icon: "fa-solid fa-server text-primary",
+    },
+    {
+      id: 3,
+      name: "Analysis for Office",
+      icon: "fa-solid fa-table text-primary",
+    },
+  ],
   frontend: [
     {
       id: 1,
@@ -34,28 +83,6 @@ export default {
       id: 7,
       name: "TypeScript",
       icon: "devicon-typescript-plain colored",
-    },
-  ],
-  backend: [
-    {
-      id: 1,
-      name: "MySQL",
-      icon: "devicon-mysql-original colored",
-    },
-    {
-      id: 2,
-      name: "Firebase",
-      icon: "devicon-firebase-plain colored",
-    },
-    {
-      id: 3,
-      name: "PostgreSQL",
-      icon: "devicon-postgresql-plain colored",
-    },
-    {
-      id: 4,
-      name: "Java",
-      icon: "devicon-java-plain colored",
     },
   ],
   tools: [

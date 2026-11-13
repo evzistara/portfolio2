@@ -10,23 +10,24 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="py-32 px-10 md:py-40 md:px-24 bg-background/80"
+      className="py-20 px-10 md:py-24 md:px-24 bg-background/80"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-8xl mx-auto">
-          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+        <div className="max-w-5xl mx-auto">
+          <div className="inline-block mb-4 py-1.5 text-primary-strong rounded-lg text-md uppercase">
             Career & Education
           </div>
 
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
+          <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-3 text-balance">
             Education
           </h2>
+          <div aria-hidden="true" className="h-1 w-10 rounded-full bg-accent mb-6" />
 
           <div className="">
             {uniData.map((uni) => (
               <Card
                 key={uni.id}
-                className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
+                className="p-6 mb-4 bg-card border border-border hover:border-accent/60 transition-all group"
               >
                 <CardContent className="p-0">
                   <div className="flex flex-col gap-4 md:flex-row items-start">
@@ -62,7 +63,7 @@ export default function Experience() {
 
                       <Typography
                         variant="body2"
-                        className="text-primary font-medium mt-1"
+                        className="text-primary-strong font-medium mt-1"
                       >
                         {uni.school}
                       </Typography>
@@ -80,15 +81,16 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className="max-w-8xl mx-auto mt-24">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
+        <div className="max-w-5xl mx-auto mt-16">
+          <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-3 text-balance">
             Experience
           </h2>
+          <div aria-hidden="true" className="h-1 w-10 rounded-full bg-accent mb-6" />
   <div className="">
             {workData.map((work) => (
               <Card
                 key={work.id}
-                className="p-6 mb-4 bg-card border border-border hover:border-primary/50 transition-all group"
+                className="p-6 mb-4 bg-card border border-border hover:border-accent/60 transition-all group"
               >
                 <CardContent className="p-0">
                   <div className="flex flex-col gap-4 md:flex-row items-start">
@@ -124,16 +126,21 @@ export default function Experience() {
 
                       <Typography
                         variant="body2"
-                        className="text-primary font-medium mt-1"
+                        className="text-primary-strong font-medium mt-1"
                       >
                         {work.company}
                       </Typography>
                       <Typography
                         variant="body2"
-                        className="text-muted-foreground leading-relaxed"
+                        className="text-muted-foreground leading-relaxed mt-2"
                       >
-                        {work.tasks}
+                        {work.summary}
                       </Typography>
+                      <ul className="list-disc marker:text-accent pl-5 mt-2 space-y-1 text-sm text-muted-foreground leading-relaxed marker:text-primary-strong">
+                        {work.tasks.map((task) => (
+                          <li key={task}>{task}</li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </CardContent>

@@ -4,18 +4,26 @@ export type Work = {
   company: string;
   period: string;
   location: string;
-  tasks: string;
+  summary: string; // one line shown above the bullets
+  tasks: string[]; // each entry becomes one bullet point
 };
 
 const data: Work[] = [
   {
     id: 1,
-    title: "Solution expert",
+    title: "SAP BW Consultant",
     company: "Norwegian Armed Forces",
-    period: "12/2025 -",
+    period: "12/2025 - now",
     location: "Oslo, Norway",
-    tasks:
-      "I am working in datawarehouse team with SAP S4/HANA with focus mainly on SD, FI, CO and MM modules (economy, sales, logistics). I build data flows for new extractors and maintain existing data flows. I also fix issues that our customers might have with data in Analysis reports (queries).",
+    summary:
+      "Data warehouse team, working on SAP BW/4HANA with finance and logistics data (FI, CO, MM and SD).",
+    tasks: [
+      "Build new data flows from SAP ECC into BW",
+      "Develop and maintain data models and process chains",
+      "Troubleshoot data issues for the people who use our reports",
+      "Responsible for our project to implement metadata management with OpenMetadata",
+      "Built the department's onboarding program and onboarded four new colleagues and our new manager",
+    ],
   },
   {
     id: 2,
@@ -23,8 +31,15 @@ const data: Work[] = [
     company: "Publicis Norway",
     period: "05/2023 - 06/2024",
     location: "Oslo, Norway",
-    tasks:
-      "I worked with Google paid search for clients as Ice and Bertel og Steen. Apart from daily optimization, I was involved in various technical projects: use of GPT for keyword analysis; use of first party data in search accounts; automatization in paid search with use of scripts and third party tools",
+    summary:
+      "Data-driven Google paid search for Ice and Bertel O. Steen.",
+    tasks: [
+      "Ran structured tests of ad formats and search strategies to improve click-through and conversion rates",
+      "Reported performance in Looker Studio",
+      "Automated Google Ads processes with scripts",
+      "Used first-party data for more accurate targeting",
+      "Applied AI to keyword analysis and data processing",
+    ],
   },
   {
     id: 3,
@@ -32,8 +47,14 @@ const data: Work[] = [
     company: "Idium 1881",
     period: "04/2022 - 12/2022",
     location: "Oslo, Norway",
-    tasks:
-      "I was doing on-page and technical SEO for different clients, together with SEO analysis, keywords analysis, competitor analysis. I cooperated with content writers, web developers. I was also member of social committee and internal marketing team",
+    summary:
+      "SEO analysis, technical improvements and advice for a range of small clients.",
+    tasks: [
+      "Analysed sites and implemented on-page and technical SEO measures myself",
+      "Worked on websites built on WordPress, Mono and Umbraco",
+      "Collaborated with content creators and developers on technical and content quality",
+      "Member of the marketing board and the social committee",
+    ],
   },
 ];
 

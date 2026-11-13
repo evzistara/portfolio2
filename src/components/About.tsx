@@ -1,22 +1,27 @@
-import Evzi5 from "../assets/Evzi5.jpg";
+import Evzi from "../assets/Evzi.webp";
 
 function About() {
   return (
-    <section id="about" className="py-32 px-10 md:py-40 md:px-24 bg-muted">
+    <section id="about" className="py-20 px-10 md:py-24 md:px-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-8xl">
-          <div className="inline-block mb-4 py-1.5 text-primary rounded-lg text-md uppercase">
+        <div className="max-w-5xl mx-auto">
+          <div className="inline-block mb-4 py-1.5 text-primary-strong rounded-lg text-md uppercase">
             About me{" "}
           </div>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6 text-balance">
+          <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-3 text-balance">
             Hey, it's Evzi
           </h2>
+          <div aria-hidden="true" className="h-1 w-10 rounded-full bg-accent mb-6" />
           <div className="flow-root">
             <div>
               <img
                 className="rounded-md w-full mb-6 md:w-1/2 md:float-right md:ml-12 md:mb-4 md:mt-1.5"
-                src={Evzi5}
-                alt=""
+                src={Evzi}
+                alt="Portrait of Evzi Stara"
+                width={1200}
+                height={960}
+                loading="lazy"
+                decoding="async"
               />
               <div className="md:text-justify">
                 <p className="mb-4">
@@ -27,7 +32,7 @@ function About() {
                 </p>
                 <p className="mb-4">
                   I like tech. It took me a few years to figure out what I
-                  actually want to do, and now I’ve landed on data. I work as an
+                  actually want to do, and now I’ve landed on data. I work as a
                   consultant at the Norwegian Armed Forces with SAP BW, so data
                   is one thing I’m certainly not lacking :) Now I’m on my way
                   toward orienting myself more toward data engineering. I have a
